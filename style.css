@@ -1,0 +1,28 @@
+#shopping-list {
+  font-size: 32px;
+  list-style-type: none;
+}
+
+/* #shopping-list > li::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(./apple.jpg);
+} */
+img{
+  width:25px;
+}
+ol, ul {
+  font-size:32px;
+  list-style-position: inside;
+  padding-bottom: 10px;
+}
+ul>li{
+  transform: translateX(30px);
+}
+ol>li{
+  background-color: orange;
+}
+ol>li>ol>li{
+  background-color: yellow;
+}
